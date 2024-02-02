@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  margin-top: 60px;
+}
+.containerText {
+  display: block;
+  align-items: left;
+  max-width: 562px;
+}
+.containerImg {
+  max-width: 230px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 47px;
+}
+.thumbImg {
+  width: 229px;
+  height: 191px;
+}
+
+@media (max-width: 850px) {
+  .container {
+    flex-wrap: wrap-reverse;
+  }
+  .thumbImg {
+    width: 211px;
+    height: 176px;
+  }
+}

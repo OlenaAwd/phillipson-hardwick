@@ -1,0 +1,35 @@
+.dayInput {
+  width: 162px;
+}
+
+.yearInput {
+  width: 180px;
+}
+
+.dateWrapper {
+  display: flex;
+  .input {
+    &:not(:last-of-type) {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .dayInput {
+    width: 89px;
+  }
+  .yearInput {
+    width: 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .dateWrapper {
+    .input {
+      &:not(:last-of-type) {
+        margin-right: 2px;
+      }
+    }
+  }
+}

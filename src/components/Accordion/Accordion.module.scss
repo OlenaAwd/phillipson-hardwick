@@ -1,0 +1,17 @@
+.accordion {
+  color: #406882;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  padding-bottom: 28px;
+  position: relative;
+  &::before {
+    content: '';
+    width: 100%;
+    border-bottom: 2px solid #d8e1e5;
+    transform: translateY(-1rem);
+    display: inline-block;
+    top: -7px;
+    position: absolute;
+  }
+}

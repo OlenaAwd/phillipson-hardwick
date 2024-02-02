@@ -1,0 +1,10 @@
+export const BASE_URL = process.env.REACT_APP_BASE_URL;
+export const STAGE_ONES_URL = process.env.REACT_APP_STAGE_ONES;
+export const SIGNATURE_URL = process.env.REACT_APP_SIGNATURE;
+export const POSTCODE_API_KEY = process.env.REACT_APP_POSTCODE_API_KEY;
+export const POSTCODE_URL = process.env.REACT_APP_POSTCODE_URL;
+export const UPDATE_CLAIM = process.env.REACT_APP_UPDATE_CLAIM_URL;
+export const TOKEN = process.env.REACT_APP_TOKEN;
+export const UPDATE_TOKEN = process.env.REACT_APP_UPDATE_TOKEN;
+export const APPSIGNAL_KEY = process.env.APPSIGNAL_KEY;
+export const DB_ADD_USER = process.env.DB_ADD_USER;

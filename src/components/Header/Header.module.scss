@@ -1,0 +1,220 @@
+.wrapper {
+  background-image: url('../../images/Arrows-for-grey-background.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  resize: both;
+}
+.headerContainer {
+  font-family: 'Inter', sans-serif;
+  padding-right: 475px;
+  padding-left: 475px;
+  opacity: 1;
+  padding-bottom: 50px;
+}
+.ImgContainer {
+  justify-content: space-between;
+  display: flex;
+}
+.headerImg {
+  width: 141.16px;
+  height: 141.16px;
+  padding-top: 39.62px;
+}
+
+.headerImgSafety {
+  width: 21px;
+  height: 21px;
+  padding-top: 80px;
+}
+
+.headerHeadline {
+  text-align: left;
+  color: #1a374d;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.headerHeadlineSub {
+  text-align: left;
+  color: #1a374d;
+  font-size: 19px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.headerSpan {
+  background-color: #47c9a7;
+}
+
+.headerHeadlineText {
+  text-align: left;
+  color: #47c9a7;
+  font-size: 14.5px;
+  line-height: 21px;
+  margin-bottom: 31px;
+  font-weight: 600;
+}
+.headerCard {
+  background-color: #fcfcfc;
+  max-width: 552px;
+  height: 100%;
+  border-radius: 17px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.avatarIcon {
+  max-width: 144px;
+  max-height: 134;
+  padding-top: 50px;
+}
+
+.rightPart {
+  max-width: 294px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  width: 94px;
+  height: 14px;
+  padding-top: 37px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.cardText {
+  text-align: center;
+  justify-content: center;
+  color: '#1A374D';
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  line-height: 24.5px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.cardSpan {
+  color: #47c9a7;
+  text-align: center;
+  justify-content: center;
+  color: '#1A374D';
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.cardReviewName {
+  color: #b1d0e0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  padding-bottom: 37px;
+}
+.buttonImg {
+  width: 20px;
+  height: 18px;
+  display: inline-flex;
+}
+
+@media (max-width: 1600px) {
+  .headerContainer {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 860px) {
+  .headerCard {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 610px) {
+  .headerContainer {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .avatarIcon {
+    max-width: 106px;
+    max-height: 123px;
+    padding-top: 40px;
+  }
+  .cardText {
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 600;
+  }
+  .stars {
+    padding-top: 25px;
+    margin-bottom: 25px;
+  }
+  .headerCard {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 372px) {
+  .headerContainer {
+    padding-right: 18px;
+    padding-left: 18px;
+    background-size: 372px, 999px;
+    margin-bottom: 67px;
+  }
+  .headerImg {
+    padding-top: 0px;
+  }
+  .headerImgSafety {
+    padding-top: 40px;
+  }
+  .headerCard {
+    max-width: 336px;
+    display: block;
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+  .avatarIcon {
+    max-width: 120px;
+    max-height: 120px;
+    padding-top: 37px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+  }
+  .rightPart {
+    max-width: 294px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .stars {
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  .buttonText {
+    font-size: 18px;
+  }
+  .avatarIcon {
+    display: flex;
+    justify-content: center;
+  }
+  .headerCard {
+    max-width: 336px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+}

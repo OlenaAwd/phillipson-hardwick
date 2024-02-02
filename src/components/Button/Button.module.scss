@@ -1,0 +1,67 @@
+.button {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 283px;
+  height: 65px;
+  border: none;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  cursor: pointer;
+
+  &.blue {
+    background-color: #154868;
+  }
+
+  &.green {
+    background-color: #47c9a7;
+  }
+
+  &.disabled {
+    cursor: pointer;
+    background-color: rgb(184, 183, 183);
+    justify-content: space-between;
+    &:hover {
+      background-color: rgb(184, 183, 183);
+    }
+  }
+}
+
+.button:hover {
+  background-color: #10527b;
+}
+
+.buttonText {
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-right: 23px;
+  padding-left: 22px;
+  justify-content: space-between;
+}
+
+.buttonImg {
+  width: 20px;
+  height: 18px;
+  display: inline-flex;
+  padding-right: 22px;
+}
+
+.next {
+  width: 100%;
+  max-width: 283px;
+}
+
+@media (max-width: 500px) {
+  .buttonText {
+    font-size: 18px;
+  }
+
+  .button {
+    max-width: 283px;
+    width: 100%;
+  }
+}

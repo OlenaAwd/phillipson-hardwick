@@ -1,0 +1,33 @@
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: 680px;
+  line-height: 27px;
+  margin-bottom: 44px;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+@media (max-width: 372px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.link {
+  color: #47c9a7;
+  transition: 0.2s;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

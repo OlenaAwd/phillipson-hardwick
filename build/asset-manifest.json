@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79b91bc0.css",
+    "main.js": "/static/js/main.27f0a14a.js",
+    "static/media/Avatar icon.png": "/static/media/Avatar icon.7e2cc31cfae49d86dcf9.png",
+    "static/media/Logo.svg": "/static/media/Logo.ec23f8f722163c4cc8d7d3ac9e5e9860.svg",
+    "static/media/Arrows-for-blue-background.svg": "/static/media/Arrows-for-blue-background.a399cffacbacc559b2f0.svg",
+    "static/media/Arrows-for-grey-background.svg": "/static/media/Arrows-for-grey-background.6baba274eb8035ba86aa.svg",
+    "static/media/thumbs-up-icon.svg": "/static/media/thumbs-up-icon.fb195e42200ba5ab6ea32feddef309d4.svg",
+    "static/media/Media icon.svg": "/static/media/Media icon.750a30aba45ad4a07b4de9cea622e78a.svg",
+    "static/media/Money icon.svg": "/static/media/Money icon.adad3a660969a49c0ee7b5c4ba0ad24f.svg",
+    "static/media/Fast service icon.svg": "/static/media/Fast service icon.7a4d6cc2b6c77d7d8537de54892c773a.svg",
+    "static/media/Calendar icon.svg": "/static/media/Calendar icon.c6825cead161e3f0bbcebd347a660aa4.svg",
+    "static/media/100 tax icon.svg": "/static/media/100 tax icon.ecc483a6b2b5de33bbb908eb8fd49903.svg",
+    "static/media/Safety icon.svg": "/static/media/Safety icon.2af81b19493117ed5b30df7aa8854d4f.svg",
+    "index.html": "/index.html",
+    "static/media/Stars icon.svg": "/static/media/Stars icon.068c9a5ce21f77e56b5539c48d246e7c.svg",
+    "static/media/background-stripes-grey.svg": "/static/media/background-stripes-grey.38928dae091ae5aad482.svg",
+    "static/media/bold-arrow-button.svg": "/static/media/bold-arrow-button.7f3061336b169c8b3cde7bb490f33e67.svg",
+    "static/media/ArrowWhite.svg": "/static/media/ArrowWhite.caf721449946deb01046c20af3dbca87.svg",
+    "main.79b91bc0.css.map": "/static/css/main.79b91bc0.css.map",
+    "main.27f0a14a.js.map": "/static/js/main.27f0a14a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79b91bc0.css",
+    "static/js/main.27f0a14a.js"
+  ]
+}

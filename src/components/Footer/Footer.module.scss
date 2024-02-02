@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: #154868;
+  width: 100%;
+}
+.container {
+  max-width: 1003px;
+  max-height: 73px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+.link {
+  color: #6998ab;
+  transition: 0.2s;
+
+  &:hover {
+    text-decoration: underline;
+    color: #47c9a7;
+  }
+}
+
+@media (max-width: 1045px) {
+  .container {
+    margin-left: 18px;
+  }
+}

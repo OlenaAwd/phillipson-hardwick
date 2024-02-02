@@ -1,0 +1,50 @@
+.button {
+  display: block;
+  width: 290px;
+  height: 65px;
+  background-color: #154868;
+  border: none;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.btnBack {
+  max-width: 140px;
+  background-color: #e8edef;
+  border: none;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.buttonText {
+  color: #ffffff;
+  font-family: 'Inter', sans - serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-right: 174px;
+}
+.buttonTextBack {
+  color: #1a374d;
+  font-family: 'Inter', sans - serif;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 5px;
+}
+.buttonImg {
+  width: 20px;
+  height: 18px;
+  display: inline-flex;
+  padding-right: 18px;
+}
+.backIcon {
+  display: inline-flex;
+  padding-left: 2px;
+}
+
+@media (max-width: 500px) {
+  .buttonText {
+    font-size: 18px;
+  }
+}

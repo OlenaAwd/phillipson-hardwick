@@ -1,0 +1,31 @@
+.wrapper {
+  widows: 250px;
+  height: 100%;
+}
+.signature {
+  border: '1px solid #D8E1E5';
+  margin-bottom: 21px;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+.btnClear {
+  width: 85px;
+  height: 40px;
+  background: #e8edef 0% 0% no-repeat padding-box;
+  border: 0.7px solid #d8e1e5;
+  border-radius: 5px;
+  color: #406882;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 33px;
+  cursor: pointer;
+  &:hover {
+    background-color: #5f7d91;
+    color: #f2f2f2;
+  }
+}
